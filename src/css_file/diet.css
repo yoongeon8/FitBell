@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+#diet_form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#diet_form > h3{
+    font-family: 'Paperlogy-8ExtraBold';
+}
+#diet_form > input{
+    height: 20px;
+    border: none;
+    font-family: 'Paperlogy-8ExtraBold';
+}
+#diet_form > input::placeholder{
+    color: slategrey;
+}
+#diet_form > input:focus{
+    outline: none;
+}
+#submit_btn{
+    font-size: 16px;
+    color: rgb(35, 35, 35);
+    border-radius: 5px;
+    background-color: #6AB4B2;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #6AB4B2;
+}
+#explan{
+    color: rgb(98, 97, 97);
+}

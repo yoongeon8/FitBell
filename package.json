@@ -1,0 +1,40 @@
+{
+  "name": "react-component",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.16.0",
+    "@google/generative-ai": "^0.24.1",
+    "@reduxjs/toolkit": "^2.9.0",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "firebase": "^12.4.0",
+    "mongodb": "^6.18.0",
+    "react": "^19.1.1",
+    "react-cookie": "^8.0.1",
+    "react-datepicker": "^8.7.0",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.8.1",
+    "redux": "^5.0.1",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "vite": "^7.1.2"
+  }
+}

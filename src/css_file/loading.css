@@ -1,0 +1,22 @@
+#load_div{
+    margin: auto;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#load_logo{
+    animation: spin 7s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

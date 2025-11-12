@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+*{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Paperlogy-8ExtraBold';
+}
+#form_div{
+    display: flex;
+    margin: auto;
+    margin-top: 25vh;
+    width: 350px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 20px;
+    border: none;
+    box-shadow: 1px 1px 1px 2px #6AB4B2;
+}
+input:focus{
+    outline: none;
+}
+#sub_btn{
+    font-size: 17px;
+    cursor: pointer;
+    color: #6AB4B2;
+    margin-bottom: 20px;
+    border: #6AB4B2 solid 2px;
+}
+#sub_btn:hover{
+    box-shadow: 2px 3px 3px 1px #6AB4B2;
+}
+p{
+    font-size: 13px;
+}
+#gosign:hover{
+    box-shadow: 1px 3px 3px 3px #6AB4B2;
+}
+button{
+    background-color: white;
+    cursor: pointer;
+    color: #6AB4B2;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+#btn_div{
+    text-align: start;
+}
+#back{
+    width: 100px;
+}
+#v_icon{
+    margin: 5px;
+    cursor: pointer;
+}
+h1{
+    font-size: 40px;
+}
